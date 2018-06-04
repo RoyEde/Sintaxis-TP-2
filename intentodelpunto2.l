@@ -26,7 +26,7 @@ void CargarArchivo() {
 
 yyin = fopen("entrada.txt","r");
 salida = fopen("salida.txt","w");
-while((caracter = fgetc(archivoLectura)) != EOF){
+while((caracter = fgetc(yyin)) != EOF){
 yylex();
 }
   fclose(yyin);
