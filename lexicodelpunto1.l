@@ -5,14 +5,14 @@
 
 %}
 
-COMENTARIO_DE_UNA_LINEA "//"[^\n]*$
 COMENTARIO_MULTIPLE_LINEA "/*"[^"*/"]*"*/"
+COMENTARIO_DE_UNA_LINEA "//"[^\n^EOF]*$?
 
 %%
 
-{COMENTARIO_DE_UNA_LINEA} {printf("Comentario de una linea borrado: %s\n",yytext);}
-
 {COMENTARIO_MULTIPLE_LINEA} {printf("Comentario de multiples lineas: %s\n",yytext);}
+
+{COMENTARIO_DE_UNA_LINEA} {printf("Comentario de una linea borrado: %s\n",yytext);}
 
 %%
 
