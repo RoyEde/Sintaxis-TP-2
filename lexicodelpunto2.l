@@ -24,8 +24,8 @@ OTRO [^A-Za-z]
 %%
 
 int main(){
-yyin = fopen("entrada.txt","r");
-sal = fopen("salida.txt","w");
+yyin = fopen("entrada2.txt","r");
+sal = fopen("salida2.txt","w");
 yylex();
 fclose(yyin);
 fclose(sal);

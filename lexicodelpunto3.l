@@ -33,7 +33,7 @@ DIGITO   [0-9]
 
 int main(){
     yyout = fopen("salida.txt","w");
-    yyin = fopen("entrada.txt","r");
+    yyin = fopen("entrada3.txt","r");
 	printf("Numeros:\n\n");
     yylex();
 	printf("Suma: %g\n", suma);

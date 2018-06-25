@@ -17,8 +17,8 @@ COMENTARIO_DE_UNA_LINEA "//"[^\n^EOF]*$?
 %%
 
 int main() {
-  yyin = fopen("entrada.c","r");
-  yyout = fopen("salida.txt","w");
+  yyin = fopen("entrada1.c","r");
+  yyout = fopen("salida1.c","w");
   yylex();
   return 0;
 }
