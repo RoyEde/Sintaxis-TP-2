@@ -1,9 +1,10 @@
 //olak ase
-int fuck
+int hola
 /*dasfasfsdsfafd
 //dadfsfsafafsad
 asdfdafsfadf
 */
-char puto //afdasfds
-int cholo //aserejeaere
-int pollo
+char como //afdasfds
+int estas //aserejeaere
+int tu
+/sdafdfas
